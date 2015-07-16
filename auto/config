@@ -1,0 +1,10 @@
+#!/bin/sh
+
+lb config noauto \
+--architectures i386 \
+--binary-image hdd \
+--system live \
+--hdd-size 3000 \
+--bootappend-live "boot=live config username=root" \
+--distribution wheezy \
+"${@}"
