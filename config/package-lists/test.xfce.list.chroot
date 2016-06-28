@@ -4,7 +4,7 @@ task-ssh-server
 task-web-server
 bash-completion
 task-desktop
-task-xfce4
+task-xfce-desktop
 
 xfce4-whiskermenu-plugin
 xfce4-battery-plugin
