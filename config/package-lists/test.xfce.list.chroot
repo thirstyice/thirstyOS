@@ -1,0 +1,12 @@
+task-laptop
+task-english
+task-ssh-server
+task-web-server
+bash-completion
+task-desktop
+task-xfce4
+
+xfce4-whiskermenu-plugin
+xfce4-battery-plugin
+xfce4-datetime-plugin
+gtk2-engines-murrine

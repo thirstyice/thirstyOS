@@ -56,7 +56,7 @@
     <property name="theme" type="string" value="NumixHolo"/>
     <property name="tile_on_move" type="empty"/>
     <property name="title_alignment" type="empty"/>
-    <property name="title_font" type="string" value="Sans 9"/>
+    <property name="title_font" type="string" value="Sans 10"/>
     <property name="title_horizontal_offset" type="empty"/>
     <property name="title_shadow_active" type="empty"/>
     <property name="title_shadow_inactive" type="empty"/>
@@ -66,7 +66,7 @@
     <property name="unredirect_overlays" type="empty"/>
     <property name="urgent_blink" type="empty"/>
     <property name="use_compositing" type="empty"/>
-    <property name="workspace_count" type="int" value="5"/>
+    <property name="workspace_count" type="int" value="2"/>
     <property name="workspace_names" type="array">
       <value type="string" value=" 1 "/>
       <value type="string" value="2"/>

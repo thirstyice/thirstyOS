@@ -1,7 +1,6 @@
-apache2
-chromium-browser
+chromium
 geany
-gftp
+filezilla
 galculator
 vlc
 arandr
@@ -11,4 +10,4 @@ gparted
 gnome-disk-utility
 hfsprogs
 git
-
+vim

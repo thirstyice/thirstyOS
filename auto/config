@@ -1,10 +1,18 @@
 #!/bin/sh
 
 lb config noauto \
+--cache true \
+--apt-recommends true \
 --architectures i386 \
---binary-image hdd \
+--debian-installer false \
+--linux-flavours 486 \
+--mode debian \
+--archive-areas "main contrib non-free" \
+--binary-images iso-hybrid \
 --system live \
---hdd-size 3000 \
---bootappend-live "boot=live config username=root" \
---distribution wheezy \
+--security true \
+--win32-loader false \
+--distribution jessie \
+--updates true \
+--bootappend-live "boot=live components username=thirstyice" \
 "${@}"

@@ -1,0 +1,14 @@
+desktop-base
+menu
+xorg
+xserver-xorg-input-all
+xserver-xorg-video-all
+alsa-base
+alsa-utils
+anacron
+avahi-daemon
+eject
+libgl1-mesa-dri
+libnss-mdns
+pm-utils
+xdg-utils
