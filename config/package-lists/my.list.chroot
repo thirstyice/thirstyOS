@@ -9,5 +9,6 @@ baobab
 gparted
 gnome-disk-utility
 hfsprogs
+ntfs-3g
 git
 vim
