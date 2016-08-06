@@ -78,7 +78,7 @@
     <property name="wrap_layout" type="empty"/>
     <property name="wrap_resistance" type="int" value="18"/>
     <property name="wrap_windows" type="empty"/>
-    <property name="wrap_workspaces" type="empty"/>
+    <property name="wrap_workspaces" type="false"/>
     <property name="margin_top" type="empty"/>
     <property name="margin_left" type="empty"/>
     <property name="margin_right" type="int" value="0"/>
