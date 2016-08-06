@@ -1,5 +1,5 @@
 chromium
-geany
+vim
 filezilla
 galculator
 vlc
@@ -11,4 +11,4 @@ gnome-disk-utility
 hfsprogs
 ntfs-3g
 git
-vim
+geany
