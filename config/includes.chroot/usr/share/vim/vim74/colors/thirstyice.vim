@@ -1,6 +1,7 @@
 " Vim color file
-" Maintainer:	Bram Moolenaar <Bram@vim.org>
-" Last Change:	2006 Apr 14
+" Maintainer:	Tauran Wood <https://github.com/thirstyice>
+" Last Change:	2016 Aug 05
+" Based on "evening"
 
 " This color scheme uses a dark grey background.
 
@@ -11,7 +12,7 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let colors_name = "evening"
+let colors_name = "thirstyice"
 
 hi Normal ctermfg=lightgrey guifg=White guibg=grey20
 
