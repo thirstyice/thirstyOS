@@ -20,4 +20,4 @@ sync;
 echo -e "\e[95m
 copied, cleanng
 \e[0m";
-lb clean --verbose;
+lb clean;
