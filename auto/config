@@ -4,7 +4,7 @@ lb config noauto \
 --cache true \
 --apt-recommends true \
 --architectures i386 \
---debian-installer false \
+--debian-installer live \
 --linux-flavours 486 \
 --mode debian \
 --archive-areas "main contrib non-free" \
