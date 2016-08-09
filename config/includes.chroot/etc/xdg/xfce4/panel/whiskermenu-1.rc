@@ -1,4 +1,4 @@
-favorites=exo-terminal-emulator.desktop,exo-file-manager.desktop,gnome-disks.desktop,org.gnome.baobab.desktop,gparted.desktop,exo-web-browser.desktop,filezilla.desktop
+favorites=exo-terminal-emulator.desktop,exo-file-manager.desktop,gnome-disks.desktop,org.gnome.baobab.desktop,gparted.desktop,exo-web-browser.desktop,filezilla.desktop,arandr.dektop
 recent=
 button-title=Applications Menu
 button-icon=xfce4-whiskermenu
@@ -21,7 +21,7 @@ show-command-settings=true
 command-lockscreen=xflock4
 show-command-lockscreen=false
 command-switchuser=gdmflexiserver
-show-command-switchuser=true
+show-command-switchuser=false
 command-logout=xfce4-session-logout
 show-command-logout=true
 command-menueditor=menulibre
