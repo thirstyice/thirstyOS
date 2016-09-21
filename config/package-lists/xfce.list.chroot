@@ -8,6 +8,7 @@ bash-completion
 lightdm
 thunar
 thunar-volman
+gvfs-backends
 tasksel
 xfce4-appfinder
 xfce4-mixer
