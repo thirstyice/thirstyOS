@@ -5,14 +5,14 @@ lb config noauto \
 --apt-recommends true \
 --architectures i386 \
 --debian-installer live \
---linux-flavours 486 \
+--linux-flavours 686-pae \
 --mode debian \
 --archive-areas "main contrib non-free" \
 --binary-images iso-hybrid \
 --system live \
 --security true \
 --win32-loader false \
---distribution jessie \
+--distribution stretch \
 --updates true \
 --bootappend-live "boot=live components username=thirstyice" \
 "${@}"

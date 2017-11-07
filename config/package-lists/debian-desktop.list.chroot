@@ -3,7 +3,7 @@ menu
 xorg
 xserver-xorg-input-all
 xserver-xorg-video-all
-alsa-base
+kmod
 alsa-utils
 anacron
 avahi-daemon
