@@ -12,3 +12,4 @@ libgl1-mesa-dri
 libnss-mdns
 pm-utils
 xdg-utils
+libinput10
