@@ -3,9 +3,9 @@
 lb config noauto \
 --cache true \
 --apt-recommends true \
---architectures i386 \
+--architectures amd64 \
 --debian-installer live \
---linux-flavours 686-pae \
+--linux-flavours amd64 \
 --mode debian \
 --archive-areas "main contrib non-free" \
 --binary-images iso-hybrid \
