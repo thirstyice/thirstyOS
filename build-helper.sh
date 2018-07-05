@@ -33,7 +33,7 @@ sync;
 echo -e \"\e[0m
 cleared, copying iso
 \e[93m\"; 
-dd if=live-image-i386.hybrid.iso of=$device bs=4M; 
+dd if=live-image-amd64.hybrid.iso of=$device bs=4M; 
 sync;
 echo -e \"\e[0m
 "
