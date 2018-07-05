@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=0.2.3-7
+Type=Application
+Name=volti
+Comment=
+Exec=volti
+StartupNotify=false
+Terminal=false
+Hidden=false
