@@ -1,0 +1,7 @@
+#!/bin/sh
+
+FILE="/usr/lib/volti/volti/preferences.py"
+
+sed -i s/'\"scale_increment\": .*,'/'\"scale_increment\": 5.0,'/g ${FILE}
+sed -i s/'\"keys\": .*,'/'\"keys\": 1,'/g ${FILE}
+sed -i s/'\"show_notify\": .*,'/'\"show_notify\": 1,'/g ${FILE}
