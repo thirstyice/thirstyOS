@@ -36,6 +36,8 @@ cleared, copying iso
 dd if=live-image-amd64.hybrid.iso of=$device bs=4M; 
 sync;
 echo -e \"\e[0m
+done!
+\";
 "
 
 else
