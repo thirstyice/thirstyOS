@@ -22,6 +22,7 @@ xorg
 xsane
 xfce4-whiskermenu-plugin
 xfce4-datetime-plugin
+volumeicon-alsa
 gtk2-engines-murrine
 gtk3-engines-xfce
 
