@@ -1,0 +1,13 @@
+task-english
+open-ssh-server
+open-ssh-client
+bash-completion
+kmod
+anacron
+eject
+pm-utils
+htop
+git
+vim
+hfsprogs
+ntfs-3g
