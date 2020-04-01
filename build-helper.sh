@@ -3,18 +3,6 @@
 echo "Device:"
 read device
 
-git pull --ff-only
-if [[ $? == 0 ]]; then
-echo "Version number:"
-read version
-if [[ $version != no ]]; then
-echo "DISTRIB_ID=thirstyos
-DISTRIB_DESCRIPTION=thirstyos $version
-DISTRIB_RELEASE=$version
-DISTRIB_CODENAME=$version">config/includes.chroot/etc/lsb-release
-git add config/includes.chroot/etc/lsb-release
-git commit -m "Updated version number in lsb-release to $version"
-fi
 sudo su -s /bin/bash -c "
 echo \"
 
@@ -39,7 +27,3 @@ echo -e \"\e[0m
 done!
 \";
 "
-
-else
-echo "Git pull failed; Merge then try again"
-fi
