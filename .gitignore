@@ -1,3 +1,16 @@
 cache/
 local/
 .DS_Store
+.build/
+chroot*
+config/binary
+config/bootstrap
+config/build
+config/chroot
+config/common
+config/source
+build.log
+.lock
+binary*
+unpacked-initrd
+live-image*
