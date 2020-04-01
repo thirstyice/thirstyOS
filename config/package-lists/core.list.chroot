@@ -1,6 +1,6 @@
 task-english
-open-ssh-server
-open-ssh-client
+openssh-server
+openssh-client
 bash-completion
 kmod
 anacron

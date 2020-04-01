@@ -12,7 +12,7 @@ lb config noauto \
 --system live \
 --security true \
 --win32-loader false \
---distribution stretch \
+--distribution buster \
 --updates true \
 --bootappend-live "boot=live components username=thirstyice" \
 "${@}"
