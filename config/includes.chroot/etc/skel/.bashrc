@@ -58,6 +58,28 @@ else
 fi
 unset color_prompt force_color_prompt
 
+# set colors for tty on linux
+if [ "$TERM" = "linux" ]; then
+    echo -en "\e]P0000000" #black
+    echo -en "\e]P8555753" #darkgrey
+    echo -en "\e]P1cc0000" #darkred
+    echo -en "\e]P9ef2929" #red
+    echo -en "\e]P24e9a06" #darkgreen
+    echo -en "\e]PA8ae234" #green
+    echo -en "\e]P3c4a000" #brown
+    echo -en "\e]PBfce94f" #yellow
+    echo -en "\e]P43465a4" #darkblue
+    echo -en "\e]PC739fcf" #blue
+    echo -en "\e]P575507b" #darkmagenta
+    echo -en "\e]PDad7fab" #magenta
+    echo -en "\e]P606989a" #darkcyan
+    echo -en "\e]PE34e2e2" #cyan
+    echo -en "\e]P7d3d7cf" #lightgrey
+    echo -en "\e]PFeeeeec" #white
+    clear #for background artifacting
+fi
+
+
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
