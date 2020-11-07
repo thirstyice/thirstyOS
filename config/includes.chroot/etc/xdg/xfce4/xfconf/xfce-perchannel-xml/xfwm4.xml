@@ -53,7 +53,7 @@
     <property name="snap_to_border" type="empty"/>
     <property name="snap_to_windows" type="empty"/>
     <property name="snap_width" type="empty"/>
-    <property name="theme" type="string" value="Numix"/>
+    <property name="theme" type="string" value="WhiteSur-dark-solid"/>
     <property name="tile_on_move" type="empty"/>
     <property name="title_alignment" type="empty"/>
     <property name="title_font" type="string" value="Sans 10"/>
