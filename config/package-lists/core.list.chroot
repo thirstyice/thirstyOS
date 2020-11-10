@@ -19,3 +19,4 @@ console-setup
 console-setup-linux
 dbus
 openssl
+ca-certificates
