@@ -11,6 +11,8 @@ git
 vim
 hfsprogs
 ntfs-3g
+dosfstools
+mtools
 user-setup
 xauth
 sudo

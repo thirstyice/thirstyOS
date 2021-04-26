@@ -2,6 +2,7 @@ cache/
 local/
 .DS_Store
 .build/
+build/
 chroot*
 config/binary
 config/bootstrap
