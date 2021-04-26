@@ -1,0 +1,197 @@
+# thirstyice Openbox theme
+# Copyright (C) 2021 thirstyice on github.com
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+### Window ###
+
+border.width: 4
+
+menu.border.width: 1
+menu.separator.width: 1
+menu.separator.padding.width: 2
+menu.separator.padding.height: 2
+
+osd.border.width: 1
+
+window.client.padding.width: 0
+window.client.padding.height: 0
+
+window.handle.width: 0
+
+padding.width: 4
+padding.height: 4
+
+menu.overlap.x: 0
+menu.overlap.y: 0
+
+### Borders ###
+
+window.active.border.color: #383838
+window.active.title.separator.color: #383838
+window.inactive.border.color: #2b2b2b
+window.inactive.title.separator.color: #2b2b2b
+window.active.client.color: #383838
+window.inactive.client.color: #2b2b2b
+
+menu.border.color: #505050
+
+osd.border.color: #505050
+
+### Titlebar ###
+
+window.active.label.text.color: #b0b0b0
+window.inactive.label.text.color: #606060
+
+window.active.button.unpressed.image.color: #ffffff
+window.active.button.pressed.image.color: #bbbbbb
+window.active.button.disabled.image.color: #656565
+#window.active.button.hover.image.color
+#window.active.button.toggled.unpressed.image.color
+#window.active.button.toggled.pressed.image.color
+#window.active.button.toggled.hover.image.color
+
+window.inactive.button.unpressed.image.color: #505050
+#window.inactive.button.pressed.image.color
+window.inactive.button.disabled.image.color: #202020
+#window.inactive.button.hover.image.color
+#window.inactive.button.toggled.unpressed.image.color
+#window.inactive.button.toggled.pressed.image.color
+#window.inactive.button.toggled.hover.image.color
+
+window.active.button.iconify.unpressed.image.color: #e1c04c
+window.active.button.max.unpressed.image.color: #71be47
+window.active.button.close.unpressed.image.color: #ed655a
+window.active.button.desk.unpressed.image.color: #4287f5
+window.active.button.shade.unpressed.image.color: #a442ff
+
+window.active.button.iconify.hover.image.color: #ae8d33
+window.active.button.max.hover.image.color: #265915
+window.active.button.close.hover.image.color: #941f15
+window.active.button.desk.hover.image.color: #174287
+window.active.button.shade.hove.image.color: #502578
+
+
+### Active window textures ###
+
+window.active.title.bg: solid flat
+window.active.title.bg.color: #3a3a3a
+
+window.active.label.bg: parentrelative
+
+window.active.handle.bg: solid flat
+window.active.handle.bg.color: #3a3a3a
+
+window.active.grip.bg: parentrelative
+
+### Inactive window textures ###
+
+window.inactive.title.bg: solid flat
+window.inactive.title.bg.color: #2c2c2c
+
+window.inactive.label.bg: parentrelative
+
+window.inactive.handle.bg: solid flat
+window.inactive.handle.bg.color: #2c2c2c
+
+window.inactive.grip.bg: parentrelative
+
+### Active window button textures ###
+
+window.active.button.unpressed.bg: parentrelative
+
+window.active.button.pressed.bg: parentrelative
+
+#window.active.button.hover.bg: parentrelative
+
+window.active.button.disabled.bg: parentrelative
+
+#window.active.button.toggled.unpressed.bg: parentrelative
+
+#window.active.button.toggled.pressed.bg: parentrelative
+
+#window.active.button.toggled.hover.bg: parentrelative
+
+### Inactive window button textures ###
+
+window.inactive.button.unpressed.bg: parentrelative
+
+window.inactive.button.pressed.bg: parentrelative
+#
+#window.inactive.button.hover.bg:
+#
+window.inactive.button.disabled.bg: parentrelative
+#
+#window.inactive.button.toggled.unpressed.bg:
+#
+#window.inactive.button.toggled.pressed.bg:
+#
+#window.inactive.button.toggled.hover.bg:
+
+### Menu colors ###
+
+menu.title.text.color: #ffffff
+menu.items.text.color: #ffffff
+menu.items.disabled.text.color: #c0c0c0
+menu.items.active.text.color: #ffffff
+#menu.items.active.disables.text.color
+menu.separator.color: #606060
+
+### Menu textures ###
+
+menu.items.bg: flat solid
+menu.items.bg.color: #303030
+
+menu.items.active.bg: flat solid
+menu.items.active.bg.color: #2767cb
+
+menu.title.bg: flat solid
+menu.title.bg.color: #404040
+
+### Osd textures ###
+
+#osd.bg
+
+#osd.label.bg
+
+osd.hilight.bg: flat solid
+
+osd.unhilight.bg: flat solid
+
+### Osd colors ###
+
+osd.label.text.color: #ffffff
+
+osd.hilight.bg.color: #2767cb
+
+osd.unhilight.bg.color: #202020
+
+### Text justification ###
+
+window.label.text.justify: Center
+menu.title.text.justify: Left
+
+### Text shadows ###
+
+#window.active.label.text.font
+
+#window.inactive.label.text.font
+
+#menu.items.font
+
+#menu.title.text.font
+
+#osd.label.text.font
+
+
