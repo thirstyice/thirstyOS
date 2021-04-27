@@ -4,7 +4,7 @@ xfce4-panel
 xfce4-session
 xfce4-settings
 libxfce4ui-utils
-xfce4-terminal
+lxterminal
 xfce4-power-manager
 xfconf
 xfdesktop4
