@@ -1,0 +1,7 @@
+#!/bin/sh
+
+set -e
+
+if [ -f /etc/grub.d/05_debian_theme ]; then
+	rm /etc/grub.d/05_debian_theme
+fi
