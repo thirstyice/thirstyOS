@@ -5,6 +5,7 @@ lb config noauto \
 --apt-recommends false \
 --architectures amd64 \
 --debian-installer live \
+--debian-installer-gui false \
 --linux-flavours amd64 \
 --mode debian \
 --archive-areas "main contrib non-free" \
