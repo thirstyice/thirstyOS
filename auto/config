@@ -4,6 +4,7 @@ lb config noauto \
 --cache true \
 --apt-recommends false \
 --architectures amd64 \
+--bootappend-install "ipv6.disable=1" \
 --debian-installer live \
 --debian-installer-gui false \
 --linux-flavours amd64 \
