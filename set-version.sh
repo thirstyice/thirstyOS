@@ -3,8 +3,8 @@
 echo "Version number:"
 read version
 if [[ $version != no ]]; then
-	echo "DISTRIB_ID=thirstyos
-	DISTRIB_DESCRIPTION=thirstyos $version
+	echo "DISTRIB_ID=thirstyOS
+	DISTRIB_DESCRIPTION=thirstyOS $version
 	DISTRIB_RELEASE=$version
 	DISTRIB_CODENAME=$version">config/includes.chroot/etc/lsb-release
 	
