@@ -7,6 +7,15 @@ if [[ $version != no ]]; then
 	DISTRIB_DESCRIPTION=thirstyos $version
 	DISTRIB_RELEASE=$version
 	DISTRIB_CODENAME=$version">config/includes.chroot/etc/lsb-release
-	git add config/includes.chroot/etc/lsb-release
-	git commit -m "Updated version number in lsb-release to $version"
+	
+	echo "thirstyOS $version \n \l" > config/includes.chroot/etc/issue
+	
+	echo "thirstyOS $version" > config/includes.chroot/etc/issue.net
+	
+	git add \
+		config/includes.chroot/etc/lsb-release \
+		config/includes.chroot/etc/issue \
+		config/includes.chroot/etc/issue.net
+	
+	git commit -m "Updated version number to $version"
 fi
