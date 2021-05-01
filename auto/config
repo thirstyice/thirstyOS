@@ -11,6 +11,9 @@ lb config noauto \
 --mode debian \
 --archive-areas "main contrib non-free" \
 --binary-images iso-hybrid \
+--iso-application "thirstyOS live" \
+--iso-publisher "thirstryice" \
+--iso-volume "thirstyOS "$(date +%F,%H:%M) \
 --system live \
 --security true \
 --win32-loader false \
