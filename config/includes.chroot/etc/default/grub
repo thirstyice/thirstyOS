@@ -33,5 +33,5 @@ GRUB_INIT_TUNE="480 440 1"
 
 GRUB_COLOR_NORMAL="white/black"
 GRUB_COLOR_HIGHLIGHT="black/light-gray"
-GRUB_BACKGROUND="/usr/share/grub/themes/thirstyice/splash.png"
+# GRUB_BACKGROUND="/usr/share/grub/themes/thirstyice/splash.png"
 GRUB_THEME="/usr/share/grub/themes/thirstyice/thirstyice.txt"

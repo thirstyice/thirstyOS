@@ -12,7 +12,7 @@ desktop-image-scale-method: "stretch"
 #desktop-image-v-align:
 desktop-color: "#536"
 terminal-box: "terminal-box/terminal_box_*.png"
-terminal-border: "0"
+terminal-border: "15"
 terminal-left: "10%"
 terminal-top: "10%"
 terminal-width: "80%"
