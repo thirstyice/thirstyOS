@@ -9,7 +9,7 @@ lb config noauto \
 --debian-installer-gui false \
 --linux-flavours amd64 \
 --mode debian \
---archive-areas "main contrib non-free" \
+--archive-areas "main non-free-firmware contrib non-free" \
 --binary-images iso-hybrid \
 --iso-application "thirstyOS live" \
 --iso-publisher "thirstryice" \
@@ -17,7 +17,7 @@ lb config noauto \
 --system live \
 --security true \
 --win32-loader false \
---distribution buster \
+--distribution bookworm \
 --updates true \
 --bootappend-live "boot=live components username=thirstyice" \
 "${@}"
