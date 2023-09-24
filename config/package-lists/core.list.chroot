@@ -23,3 +23,4 @@ dbus
 openssl
 ca-certificates
 wpasupplicant
+xz-utils
