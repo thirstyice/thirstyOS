@@ -1,28 +1,28 @@
-task-english
-openssh-server
-openssh-client
-bash-completion
-kmod
-anacron
-eject
-pm-utils
-htop
+# task-english
+# openssh-server
+# openssh-client
+# bash-completion
+# kmod
+# anacron
+# eject
+# pm-utils
+# htop
 git
-vim
-hfsprogs
-ntfs-3g
-dosfstools
-mtools
-user-setup
-xauth
-sudo
-less
-console-setup
-console-setup-linux
-dbus
-openssl
-ca-certificates
-wpasupplicant
-xz-utils
-unzip
+# vim
+# hfsprogs
+# ntfs-3g
+# dosfstools
+# mtools
+# user-setup
+# xauth
+# sudo
+# less
+# console-setup
+# console-setup-linux
+# dbus
+# openssl
+# ca-certificates
+# wpasupplicant
+# xz-utils
+# unzip
 screen

@@ -13,8 +13,8 @@ samba
 usb_modeswitch
 
 ## Btrfs
-grub-btrfs
->extra timeshift-autosnap-manjaro
+# grub-btrfs
+# >extra timeshift-autosnap-manjaro
 
 ## Libraries for Sound/Audio/Video
 alsa-firmware
@@ -48,17 +48,17 @@ udisks2
 ttf-dejavu
 # cantarell-fonts        # Installed as gnome-themes-standard dependency
 noto-fonts               # default font
-noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
-adobe-source-sans-pro-fonts
+# noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+# adobe-source-sans-pro-fonts
 # adobe-source-han-sans-jp-fonts
 # adobe-source-han-sans-kr-fonts
 # adobe-source-han-sans-cn-fonts
 # >extra noto-fonts-emoji
 terminus-font
->extra ttf-inconsolata
->extra ttf-indic-otf
->extra ttf-liberation
->extra ttf-droid
+# >extra ttf-inconsolata
+# >extra ttf-indic-otf
+# >extra ttf-liberation
+# >extra ttf-droid
 
 ## Package management
 >extra apparmor
@@ -75,21 +75,21 @@ pamac-gtk3
 ## Display manager
 lightdm
 lightdm-gtk-greeter
-lightdm-gtk-greeter-settings
+# lightdm-gtk-greeter-settings
 accountsservice  # Enhanced user accounts handling
 
 ## XFCE Group
-exo
-garcon
+# exo
+# garcon
 thunar
 thunar-volman
 tumbler
-xfce4-appfinder
+# xfce4-appfinder
 xfce4-panel
 xfce4-power-manager
 xfce4-session
 xfce4-settings
-xfce4-terminal
+# xfce4-terminal
 xfconf
 xfdesktop
 xfwm4
@@ -102,106 +102,106 @@ gnome-keyring      # fix wlan segfault
 libgsf             # tumbler - for ODF thumbnails
 libopenraw         # tumbler - for RAW thumbnails
 # light-locker     # remove it for now as it might double-lock in certain cases
-xfce4-screensaver
+# xfce4-screensaver
 network-manager-applet
-menulibre
+# menulibre
 poppler-glib       # tumbler - for PDF thumbnails
 thunar-archive-plugin
 thunar-media-tags-plugin
 # >extra xfce4-artwork
 xfce4-battery-plugin
-xfce4-clipman-plugin
->extra xfce4-cpufreq-plugin
->extra xfce4-cpugraph-plugin
-# xfce4-datetime-plugin
->extra xfce4-dict
->extra xfce4-diskperf-plugin
->extra xfce4-fsguard-plugin
->extra xfce4-genmon-plugin
->extra xfce4-mailwatch-plugin
->extra xfce4-mount-plugin
->extra xfce4-mpc-plugin
->extra xfce4-netload-plugin
->extra xfce4-notes-plugin
+# xfce4-clipman-plugin
+# >extra xfce4-cpufreq-plugin
+# >extra xfce4-cpugraph-plugin
+xfce4-datetime-plugin
+# >extra xfce4-dict
+# >extra xfce4-diskperf-plugin
+# >extra xfce4-fsguard-plugin
+# >extra xfce4-genmon-plugin
+# >extra xfce4-mailwatch-plugin
+# >extra xfce4-mount-plugin
+# >extra xfce4-mpc-plugin
+# >extra xfce4-netload-plugin
+# >extra xfce4-notes-plugin
 xfce4-notifyd
-xfce4-screenshooter
->extra xfce4-sensors-plugin
->extra xfce4-smartbookmark-plugin
->extra xfce4-systemload-plugin
-xfce4-taskmanager
->extra xfce4-time-out-plugin
->extra xfce4-timer-plugin
->extra xfce4-verve-plugin
->extra xfce4-wavelan-plugin
->extra xfce4-weather-plugin
+# xfce4-screenshooter
+# >extra xfce4-sensors-plugin
+# >extra xfce4-smartbookmark-plugin
+# >extra xfce4-systemload-plugin
+# xfce4-taskmanager
+# >extra xfce4-time-out-plugin
+# >extra xfce4-timer-plugin
+# >extra xfce4-verve-plugin
+# >extra xfce4-wavelan-plugin
+# >extra xfce4-weather-plugin
 xfce4-whiskermenu-plugin
-xfce4-xkb-plugin
-xfce4-pulseaudio-plugin
-pavucontrol
+# xfce4-xkb-plugin
+# xfce4-pulseaudio-plugin
+# pavucontrol
 
 ## Themes
->extra manjaro-wallpapers-18.0
->extra wallpapers-2018
->extra wallpapers-juhraya
-gnome-themes-standard
-grub-theme-manjaro
-matcha-gtk-theme
-xcursor-simpleandsoft
-xcursor-vanilla-dmz-aa
-plymouth
-plymouth-theme-manjaro
+# >extra manjaro-wallpapers-18.0
+# >extra wallpapers-2018
+# >extra wallpapers-juhraya
+# gnome-themes-standard
+# grub-theme-manjaro
+# matcha-gtk-theme
+# xcursor-simpleandsoft
+# xcursor-vanilla-dmz-aa
+# plymouth
+# plymouth-theme-manjaro
 
 ## Applications
 bash-completion
->extra catfish
-dmidecode # optional dependency inxi
-engrampa
+# >extra catfish
+# dmidecode # optional dependency inxi
+# engrampa
 firefox
 # >extra flashplugin
 >extra galculator
-gcolor3
->extra gimp
+# gcolor3
+# >extra gimp
 gparted
-gufw
->extra audacious
+# gufw
+# >extra audacious
 htop
-inxi
+# inxi
 #>extra libreoffice-still
 #>extra microsoft-office-online-jak
 #>extra freeoffice
 #>extra onlyoffice-desktopeditors
-manjaro-hello
-manjaro-application-utility
-manjaro-settings-manager
-manjaro-settings-manager-notifier
->extra mlocate
-mousepad
-mugshot
->basic parole # media player
->extra pidgin
-powertop
-screenfetch
+# manjaro-hello
+# manjaro-application-utility
+# manjaro-settings-manager
+# manjaro-settings-manager-notifier
+# >extra mlocate
+# mousepad
+# mugshot
+# >basic parole # media player
+# >extra pidgin
+# powertop
+# screenfetch
 evince
->extra poppler-data  # CKJ support for pdf
+# >extra poppler-data  # CKJ support for pdf
 #>basic sylpheed # mail client
->extra thunderbird
+# >extra thunderbird
 >extra vlc
->extra viewnior
->extra xfburn
->extra yelp
+# >extra viewnior
+# >extra xfburn
+# >extra yelp
 
 # Optional dependencies engrampa
-p7zip  # 7Z and ARJ archive support
-unace  # ACE archive support
-unrar  # RAR archive support
+# p7zip  # 7Z and ARJ archive support
+# unace  # ACE archive support
+# unrar  # RAR archive support
 
 ## Documentation
 #manjaro-documentation-en
 
 ## Settings packages
->extra manjaro-xfce-settings
->basic manjaro-xfce-minimal-settings
-manjaro-browser-settings
+# >extra manjaro-xfce-settings
+# >basic manjaro-xfce-minimal-settings
+# manjaro-browser-settings
 
 ## Xorg Input Drivers
 xf86-input-elographics

@@ -2,6 +2,8 @@
 base
 
 # Manjaro
+
+# KERNEL
 acpi
 acpid
 amd-ucode
@@ -22,29 +24,27 @@ exfatprogs
 f2fs-tools
 glibc-locales
 grub
-install-grub
 inetutils
+# install-grub
 intel-ucode
 jfsutils
-KERNEL
 less
-wireless-regdb
 linux-firmware
 logrotate
 lvm2
 man-db
 man-pages
-manjaro-release
+# manjaro-release
 manjaro-system
-manjaro-zsh-config
+# manjaro-zsh-config
 mdadm
-memtest86+
-memtest86+-efi
+# memtest86+
+# memtest86+-efi
 mhwd
 mhwd-db
 mkinitcpio-openswap
-nano
-nano-syntax-highlighting
+# nano
+# nano-syntax-highlighting
 networkmanager
 nfs-utils
 ntfs-3g
@@ -52,15 +52,25 @@ os-prober
 perl
 rsync
 s-nail
-sof-firmware
+# sof-firmware
 sudo
 sysfsutils
-texinfo
+# texinfo
 update-grub
 usbutils
-vi
+nvim
 wget
 which
 wireless-regdb
 wpa_supplicant
 xfsprogs
+
+# thirstyOS
+hfsprogs
+mtools
+
+zsh
+zsh-history-substring-search
+zsh-autosuggestions
+zsh-syntax-highlighting
+zsh-completions
